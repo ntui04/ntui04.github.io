@@ -567,7 +567,16 @@
 
     <!-- JavaScript -->
     <script src="script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYJB36NN14"></script>
     <script>
+      window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RYJB36NN14');
+
+
+
         // Toggle between light and dark mode
 const toggleTheme = () => {
   const currentTheme = document.documentElement.getAttribute('data-theme');
@@ -582,3 +591,4 @@ document.documentElement.setAttribute('data-theme', savedTheme);
     </script>
   </body>
 </html>
+
